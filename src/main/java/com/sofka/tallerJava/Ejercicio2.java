@@ -1,9 +1,10 @@
 package com.sofka.tallerJava;
-
 import java.util.Scanner;
 
 public class Ejercicio2 {
     public static void main(String[] args) {
+        // TODO: 12/02/2022 Al ejercicio anterior agregar entrada por consola de dos valores e indicar}
+        //  si son mayores, menores o iguales.
 
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese la primera variable");
