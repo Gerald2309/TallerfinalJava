@@ -1,5 +1,4 @@
 package com.sofka.tallerJava;
-
 import javax.swing.*;
 
 public class Ejercicio11 {
