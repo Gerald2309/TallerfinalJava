@@ -13,7 +13,7 @@ public class Ejercicio14 {
         for (int i = valorInicial; i <= 1000 ; i++)
         {
             i++;
-            System.out.println(i);
+            System.out.print(i + ", ");
 
         }
 
