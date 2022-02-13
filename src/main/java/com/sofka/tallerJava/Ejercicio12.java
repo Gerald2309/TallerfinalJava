@@ -1,8 +1,8 @@
 package com.sofka.tallerJava;
 import javax.swing.*;
-import java.util.function.ToDoubleBiFunction;
+import java.util.ArrayList;
+import java.util.List;
 
-//SIN TERMINAR
 public class Ejercicio12 {
     // TODO: 12/02/2022  Pedir dos palabras por teclado, indicar si son iguales, si no son iguales mostrar sus diferencias.
     public static void main(String[] args) {
@@ -12,7 +12,8 @@ public class Ejercicio12 {
         palabra1 = JOptionPane.showInputDialog("Ingrese la primera palabra: ");
         palabra2 = JOptionPane.showInputDialog("Ingrese la segunda palabra: ");
 
-        char[] diferencias = new char[10];
+        List<Character> chars = new ArrayList<>() ;
+
 
 
         if (palabra1.equals(palabra2))
@@ -21,21 +22,36 @@ public class Ejercicio12 {
         }
         else
         {
-            for (int i =0; i <= palabra1.length() ;i++){
-                for (int a = 0; i >= palabra2.length() ;i++ )
-                {
-                    if(palabra1.charAt(i) == palabra2.charAt(a)){
-                        diferencias[i] = palabra1.charAt(a);
+            if (palabra1.length() < palabra2.length())
+            {
+                System.out.println("a");
+                for (int i = 0; i < palabra1.length(); i++) {
+                    if (palabra1.charAt(i) != palabra1.charAt(i)) {
+                        chars.add(palabra1.charAt(i));
                     }
                 }
+            }
+            else if(palabra1.length() > palabra2.length()){
+                System.out.println("a");
 
+                for (int i = 0; i < palabra2.length(); i++) {
+                    if (palabra1.charAt(i) != palabra2.charAt(i)) {
+                        chars.add(palabra2.charAt(i));
+                    }
+                }
             }
-            for (int j =0; j < diferencias.length ;j++){
-                System.out.println(diferencias[j]);
+            else if(palabra1.length() == palabra2.length()){
+                System.out.println("a");
+
+                for (int i = 0; i < palabra2.length(); i++) {
+                    if (palabra1.charAt(i) != palabra2.charAt(i)) {
+                        chars.add(palabra2.charAt(i));
+                    }
+                }
             }
+            System.out.println("Las palabras son diferentes en los caracteres: "+chars);
 
         }
-
 
     }
 }
