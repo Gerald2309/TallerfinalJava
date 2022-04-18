@@ -11,7 +11,7 @@ public class Ejercicio7 {
         do {
             num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero "));
 
-        } while (num < 0);
+        } while (num <= 0);
 
         JOptionPane.showMessageDialog(null,"El numero ingresado fue: " + num);
 

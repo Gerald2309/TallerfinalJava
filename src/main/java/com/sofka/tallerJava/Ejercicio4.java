@@ -13,8 +13,9 @@ public class Ejercicio4 {
         leerPrecio = JOptionPane.showInputDialog("Ingrese el precio del producto: ");
         precio = Double.parseDouble(leerPrecio);
 
-        double iva = precio * 0.21;
-        double precioFinal = precio + iva;
+        final double IVA = 0.21;
+        double resultadoIVA = precio * IVA;
+        double precioFinal = precio + resultadoIVA;
 
         JOptionPane.showMessageDialog(null,"El precio final del producto con IVA incluido es: "+precioFinal);
 

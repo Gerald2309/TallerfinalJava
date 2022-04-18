@@ -1,5 +1,4 @@
 package com.sofka.tallerJava;
-import java.util.Scanner;
 import javax.swing.*;
 
 public class Ejercicio15 {
@@ -24,28 +23,10 @@ public class Ejercicio15 {
                     "\n");
             op = Integer.parseInt(JOptionPane.showInputDialog("Ingrese una opcion."));
 
-            switch (op){
-
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    break;
-                case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    break;
-                default:
-                    JOptionPane.showMessageDialog(null,"OPCION INCORRECTA");
-
+            if (op > 8 || op < 1){
+                JOptionPane.showMessageDialog(null,"OPCION INCORRECTA");
             }
+
         }while (op != 8); //MENÚ
     }
 }

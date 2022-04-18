@@ -12,19 +12,15 @@ public class Ejercicio2 {
         System.out.println("Ingrese la segunda variable variable");
         int var2 = leer.nextInt();
 
-        int mayor = 0;
         if (var1 > var2) {
-            mayor = var1;
-            System.out.println("El número mayor es: " + mayor);
+            System.out.println("El número mayor es: " + var1);
 
         }
         else if(var2 > var1){
-            mayor = var2;
-            System.out.println("El número mayor es: " + mayor);
+            System.out.println("El número mayor es: " + var2);
 
         }
         else{
-            String numCadena= String.valueOf(mayor);
             System.out.println("Las variables uno y dos son iguales");
         }
 

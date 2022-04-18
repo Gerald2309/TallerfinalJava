@@ -1,0 +1,10 @@
+
+M
+java:S1135"2Complete the task associated to this TODO comment.(èõşìøÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ
+^
+java:S1192"HDefine a constant instead of duplicating this literal "El dia " 8 times.(’ö©¥
+b
+java:S1192"LDefine a constant instead of duplicating this literal " es laboral" 6 times.(ºÊ¾ş
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şäÁÖ
