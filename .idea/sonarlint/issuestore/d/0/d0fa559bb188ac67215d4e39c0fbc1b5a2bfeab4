@@ -1,21 +1,0 @@
-
-W
-java:S1854"<Remove this useless assignment to local variable "persona3".(â»Õõıÿÿÿÿ
-W
-java:S1854"<Remove this useless assignment to local variable "persona2".(‡õ¡ºûÿÿÿÿ
-W
-java:S1854"<Remove this useless assignment to local variable "persona1".(ò™ÿÌøÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¼í­÷
-N	java:S106"9Replace this use of System.out or System.err by a logger.(êí¦Ú
-N	java:S106"9Replace this use of System.out or System.err by a logger.(äÃ»¾
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¶å“òÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(İ×ç
-H
-java:S1481"-Remove this unused "persona1" local variable.(ò™ÿÌøÿÿÿÿ
-H
-java:S1481"-Remove this unused "persona2" local variable.(‡õ¡ºûÿÿÿÿ
-H
-java:S1481"-Remove this unused "persona3" local variable.(â»Õõıÿÿÿÿ
-_
-java:S1128"IRemove this unused import 'com.sofka.tallerJava.Ejercicio16.Persona.IMC'.(Œ³ÂÉ
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óà®

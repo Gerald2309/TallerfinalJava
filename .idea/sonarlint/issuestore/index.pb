@@ -1,8 +1,4 @@
 
-k
-;src/main/java/com/sofka/tallerJava/Ejercicio16/Persona.java,3\3\333b84dfb39910c87d6979a9ed68cf3e590d8056
-h
-8src/main/java/com/sofka/tallerJava/Ejercicio16/Main.java,d\0\d0fa559bb188ac67215d4e39c0fbc1b5a2bfeab4
 c
 3src/main/java/com/sofka/tallerJava/Ejercicio13.java,7\3\734b977345fd625b03724ede4750a4a826a34ac4
 b
@@ -15,8 +11,6 @@ b
 2src/main/java/com/sofka/tallerJava/Ejercicio6.java,a\2\a252604eab7d3617907fc98d3c1b6fcfb6a6a3d2
 b
 2src/main/java/com/sofka/tallerJava/Ejercicio7.java,4\b\4b389752bc464efa40c8fef493c0ca44d18a5b00
-b
-2src/main/java/com/sofka/tallerJava/Ejercicio1.java,4\5\45d4d451c5c82d36e1de3131a6fc97d47018377b
 b
 2src/main/java/com/sofka/tallerJava/Ejercicio2.java,7\4\7441a4d98b3b077803fdcb4bc39cc5ba5602c4db
 b
