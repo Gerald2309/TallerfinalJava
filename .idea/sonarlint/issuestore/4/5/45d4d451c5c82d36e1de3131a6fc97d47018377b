@@ -1,9 +1,0 @@
-
-H
-java:S1135"2Complete the task associated to this TODO comment.(¦áùÍ
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÁ»8¾ê‚ñƒ0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(£„çıÿÿÿÿ8¿ê‚ñƒ0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(³»Â·ÿÿÿÿÿ8Áê‚ñƒ0
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şäÁÖ
-`
-java:S2583"CChange this condition so that it does not always evaluate to "true"(ƒ©İù8‚ë‚ñƒ0

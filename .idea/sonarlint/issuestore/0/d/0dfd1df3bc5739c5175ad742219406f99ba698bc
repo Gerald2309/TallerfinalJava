@@ -1,10 +1,0 @@
-
-H
-java:S1135"2Complete the task associated to this TODO comment.(Ç¿×Ó
-S	java:S106
-"9Replace this use of System.out or System.err by a logger.(þªÒØûÿÿÿÿ
-c
-java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ŒþŽ¨úÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(´€¯›
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ßìÏ²ÿÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(þäÁÖ
