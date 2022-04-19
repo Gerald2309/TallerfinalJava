@@ -21,3 +21,11 @@ c
 3src/main/java/com/sofka/tallerJava/Ejercicio10.java,b\d\bdc380b5b7926dcc2d02ab36cbdb21e39a02cc3b
 c
 3src/main/java/com/sofka/tallerJava/Ejercicio11.java,3\d\3d826236734688a78567b514f3b054801f891848
+b
+2src/main/java/com/sofka/tallerJava/Ejercicio1.java,4\5\45d4d451c5c82d36e1de3131a6fc97d47018377b
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+h
+8src/main/java/com/sofka/tallerJava/Ejercicio16/Main.java,d\0\d0fa559bb188ac67215d4e39c0fbc1b5a2bfeab4
+k
+;src/main/java/com/sofka/tallerJava/Ejercicio16/Persona.java,3\3\333b84dfb39910c87d6979a9ed68cf3e590d8056

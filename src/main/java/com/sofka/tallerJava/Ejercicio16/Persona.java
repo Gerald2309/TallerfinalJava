@@ -1,62 +1,126 @@
 package com.sofka.tallerJava.Ejercicio16;
 
+import java.util.Objects;
+import java.util.Random;
+
 public class Persona {
-    protected static String nombre = "";
-    static int edad = 0;
-    int DNI;
-    static char sexo = 'H';
-    float peso = 0;
-    double altura = 0;
-    boolean esMayordeEdad = false;
+    private String nombre;
+    private int edad;
+    private int DNI;
+    private char sexo = 'H';
+    private double peso;
+    private double altura;
+    private boolean esMayordeEdad;
 
-    public void setPeso(float peso1) {
-        this.peso = peso1;
-    }
-
-    public void setAltura(double altura1) {
-        this.altura = altura1;
-    }
-
-
-    public Persona(String nombre1, int edad1, char sexo1, float peso1, double altura1) {
-        this.nombre = nombre1;
-    }
-    public Persona(String nombre1, int edad1, char sexo1) {
-
-    }
-
+    ///CONSTRUCTORES -----------------------------------------------------------------------------------
     public Persona() {
+        this.nombre = "";
+        this.edad = 12;
+        this.sexo = 'H';
+        this.peso = 0;
+        this.altura = 0;
 
+    }
+
+    public Persona(String nombre, char sexo, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sexo = sexo;
+    }
+
+    public Persona(String nombre, int edad, int DNI, char sexo, double peso, double altura, boolean esMayordeEdad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.DNI = DNI;
+        this.sexo = sexo;
+        this.peso = peso;
+        this.altura = altura;
+        this.esMayordeEdad = esMayordeEdad;
+    }
+
+
+    //MÉTODOS ---------------------------------------------------------------------------------
+
+
+    public double calcularIMC(double peso1, double altura1){
+        double imc = peso1/(altura1*altura1);
+
+      return imc;
+
+    }
+
+    public double valorFinalIMC(double imc) {
+        final int riesgoIMC;
+
+        if(imc < 20){
+            riesgoIMC = -1;
+        }
+        else if(imc >=20 && imc <= 25 ){
+            riesgoIMC = 0;
+        }
+        else {
+            riesgoIMC = 1;
+        }
+        return riesgoIMC;
     }
 
     boolean esMayorDeEdad(int edad1){
-        if (edad1 >= 18) this.esMayordeEdad = true;
-        else this.esMayordeEdad = false;
+        this.esMayordeEdad = edad1 >= 18;
         return esMayordeEdad;
 
     }
 
-    public static double IMC(double peso1, double altura1) {
-        double imc= peso1/(altura1*altura1);
-        return imc ;
+    public char ComprobarSexo(String Sexo1) {
+
+        if(Objects.equals(Sexo1, "Hombre")){
+            this.sexo = 'H';
+        }
+        if(Objects.equals(Sexo1, "Mujer")){
+            this.sexo = 'M';
+        }
+        return this.sexo;
+
     }
 
-    public static String ComprobarS(String Sexo1) {
-
-        if(Sexo1.equals("Hombre")){
-            Sexo1 = "H";
-        }
-        if(Sexo1.equals("Mujer")){
-            Sexo1 = "M";
-        }
-        else{Sexo1 = "H";}
-        return Sexo1;
-
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", DNI=" + DNI +
+                ", sexo=" + sexo +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                ", esMayordeEdad=" + esMayordeEdad +
+                '}';
     }
+
+
     public int generaDNI()
     {
         int dni = (int) Math.floor(Math.random()*(99999999-50+1)+50);
         return dni;
     }
 
+    private void generarDni() {
+        Random r = new Random();
+        int cantidad = 0;
+        for (int i = 0; i <= 23; i++) {
+            cantidad = r.nextInt(90000000) + 10000;
+
+            System.out.println(cantidad);
+        }
+        int res = cantidad - (cantidad / 23*23);
+        //Calculamos la letra del DNI
+        char letraDNI = generaLetraDNI(res);
+        //Pasamos el DNI a String
+       // DNI = Integer.toString(cantidad) + letraDNI;
+
+    }
+    private char generaLetraDNI(int res) {
+        char letras[] = {'T', 'R', 'W', 'A', 'G', 'M', 'Y',
+                'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z',
+                'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
+        return letras[res];
+    }
 }
