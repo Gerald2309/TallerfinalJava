@@ -1,0 +1,23 @@
+
+h	java:S116	"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ
+m	java:S116"XRename this field "IMC_BAJO_PESO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®½¡ƒ
+n	java:S116"YRename this field "IMC_PESO_IDEAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÄ±
+n	java:S116"YRename this field "IMC_SOBRE_PESO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¥³Ü
+7
+java:S1170"!Make this final field static too.(®½¡ƒ
+7
+java:S1170"!Make this final field static too.(ƒÄ±
+7
+java:S1170"!Make this final field static too.(Ã¥³Ü
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(“‘×
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(§™€²úÿÿÿÿ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(ÀÛÏá
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(Å¤‘Äşÿÿÿÿ8‚ÿ¦ „0
+<
+java:S2119‰"Save and re-use this "Random".(¡Å”¦8Ôùª „0
+H
+java:S1197‘"*Move the array designators [] to the type.(ì§­¼8Ùùª „0
+Q
+java:S1121".Extract the assignment out of this expression.( ²õ¬üÿÿÿÿ8Ûùª „0
+k	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÜß£úÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óà®
