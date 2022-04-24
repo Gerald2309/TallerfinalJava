@@ -1,0 +1,18 @@
+
+Z
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(­È˜<
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Þß–¢ÿÿÿÿÿ
+Z
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(œ¡«
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿÎ„ÿ
+h	java:S128g"LEnd this switch case with an unconditional break, return or throw statement.(Â³íÅ8Ð¬Ö …0
+m	java:S128e"LEnd this switch case with an unconditional break, return or throw statement.(è‰½Ôùÿÿÿÿ8Ð¬Ö …0
+m	java:S128c"LEnd this switch case with an unconditional break, return or throw statement.(ü’Ûˆûÿÿÿÿ8Ð¬Ö …0
+h	java:S128a"LEnd this switch case with an unconditional break, return or throw statement.(Ïºˆ¯8Ñ¬Ö …0
+m	java:S128_"LEnd this switch case with an unconditional break, return or throw statement.(¼ßõ‚ûÿÿÿÿ8Ñ¬Ö …0
+>	java:S131^""Add a default case to this switch.(¡ùÉà8­ÕÛ …0
+Y
+java:S1128">Remove this unused import 'org.jetbrains.annotations.NotNull'.(éš®ïøÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôœÞ^

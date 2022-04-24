@@ -1,0 +1,8 @@
+
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(†èˆøýÿÿÿÿ
+U
+java:S1161 ":Add the "@Override" annotation above this method signature(•½©¶úÿÿÿÿ
+E
+java:S5411&"*Use the primitive boolean expression here.(®úºÔþÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôœÞ^

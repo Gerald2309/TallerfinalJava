@@ -29,3 +29,9 @@ k
 ;src/main/java/com/sofka/tallerJava/Ejercicio16/Persona.java,3\3\333b84dfb39910c87d6979a9ed68cf3e590d8056
 h
 8src/main/java/com/sofka/tallerJava/Ejercicio16/Main.java,d\0\d0fa559bb188ac67215d4e39c0fbc1b5a2bfeab4
+h
+8src/main/java/com/sofka/tallerJava/Ejercicio17/Main.java,3\d\3d231bdc960b2433f061153409c3dd5f2c7131e6
+n
+>src/main/java/com/sofka/tallerJava/Ejercicio17/Television.java,c\6\c651535f47847e7a9aed0d3e302012ddeed1b311
+t
+Dsrc/main/java/com/sofka/tallerJava/Ejercicio17/Electrodomestico.java,2\a\2ad6bb607c0ae23750a4062c50c3a42c3a770b38
